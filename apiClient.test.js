@@ -43,8 +43,8 @@ describe("ApiClient", () => {
     it("should fetch a single user by ID", async () => {
       const mockUser = {
         id: 1,
-        name: "rohith",
-        email: "rohith@example.com",
+        name: "vamsi",
+        email: "vamsi@example.com",
       };
 
       fetchSpy.mockResolvedValue({
